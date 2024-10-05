@@ -1,0 +1,1 @@
+CodeRide is a web-based platform designed for front-end developers to create, test, and showcase their code in real time, much like the popular tool CodePen. It serves as an online code editor that allows users to write HTML, CSS, and JavaScript, offering a live preview of the code’s output as it is being written.

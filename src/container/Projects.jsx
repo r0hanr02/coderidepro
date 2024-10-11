@@ -48,7 +48,7 @@ const ProjectCard = ({ project, index }) => {
   animate={{opacity:1}}
   exit={{opacity:0}}
   transition={{duration:0.5,  delay: index * 0.2}}
-  className='w-full hover:scale-105 transition-all 2s cursor-pointer md:w-[450px] h-[375px] bg-secondary rounded-md p-4 flex flex-col items-center justify-center gap-4'>
+  className='w-full hover:scale-105 transition-all 2s cursor-pointer md:w-[400px] h-[335px] bg-secondary rounded-md p-4 flex flex-col items-center justify-center gap-4'>
     <div className='bg-primary w-full h-full style={{overflow:"hidden", height:"100%"}}'>
                 <iframe
                 title='Result'

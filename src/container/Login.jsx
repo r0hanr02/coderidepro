@@ -144,38 +144,38 @@ const SignIn = () => {
             
             {/*or section  */}
 
-            <div className='flex items-center justify-center gap-12bg'>
+{/*             <div className='flex items-center justify-center gap-12bg'>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
               <p className='text-sm text-[rgba(256,256,256,0.2)]'>OR</p>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
-            </div>
+            </div> */}
 
             {/* Google sign in */}
 
-            <motion.div onClick={signInWithGoogle} 
+{/*             <motion.div onClick={signInWithGoogle} 
             whileTap={{scale:0.9}}  
             className='flex items-center justify-center gap-3 bg-[rgba(256,256,256,0.2)] backdrop-blur-md w-full py-3 rounded-xl hover:[rgba(256,256,256,0.4)] cursor-pointer' >
               <FcGoogle className='text-3xl'/>
               <p className='text-xl text-white'>Sign in with Google</p>
-            </motion.div>
+            </motion.div> */}
 
             {/* or section */}
 
-            <div className='flex items-center justify-center gap-12bg'>
+{/*             <div className='flex items-center justify-center gap-12bg'>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
               <p className='text-sm text-[rgba(256,256,256,0.2)]'>OR</p>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
-            </div>
+            </div> */}
 
             {/* Github signin */}
 
-            <motion.div onClick={signInWithGithub}
+{/*             <motion.div onClick={signInWithGithub}
             whileTap={{scale:0.9}}  
             className='flex items-center justify-center gap-3 bg-[rgba(256,256,256,0.2)] backdrop-blur-md w-full py-3 rounded-xl hover:[rgba(256,256,256,0.4)] cursor-pointer' >
               <FaGithub className='text-3xl'/>
               <p className='text-xl text-white'>Sign in with Github</p>
             </motion.div>
-
+ */}
         </div>
     </div>
    </div>

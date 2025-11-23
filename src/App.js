@@ -61,7 +61,7 @@ const App = () => {
         <Route path='/newProject' element={<NewProject/>}/>
         {/* if the route not matching*/}
         <Route path='*' element={
-            <Navigate to={"/home"} />} />
+            <navigate to={"/home"} />} />
             </Routes> 
         </div>
     )

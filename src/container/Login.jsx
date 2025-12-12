@@ -67,7 +67,7 @@ const SignIn = () => {
 
   return (
    <div className='w-full py-6'>
-    <img src={LOGO} className='object-contain w-32 opacity-70 h-auto' alt="" srcset="" />
+    <img src={LOGO} className='object-contain w-32 opacity-70 h-auto' alt=""  />
     <div className='w-full flex flex-col items-center justify-center py-8'>
         <p className='py-12 text-2xl text-primaryText'>Become a Frontend Master!😃</p>
         <div className='px-8 w-full md:w-auto py-4 rounded-xl bg-secondary shadow-md flex flex-col items-center justify-center gap-8'>
@@ -142,40 +142,39 @@ const SignIn = () => {
 
     
             
-            {/*or section  */}
+            {/* or section  */}
 
-{/*             <div className='flex items-center justify-center gap-12bg'>
+            <div className='flex items-center justify-center gap-12bg'>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
               <p className='text-sm text-[rgba(256,256,256,0.2)]'>OR</p>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
-            </div> */}
+            </div>
 
             {/* Google sign in */}
 
-{/*             <motion.div onClick={signInWithGoogle} 
+           <motion.div onClick={signInWithGoogle} 
             whileTap={{scale:0.9}}  
             className='flex items-center justify-center gap-3 bg-[rgba(256,256,256,0.2)] backdrop-blur-md w-full py-3 rounded-xl hover:[rgba(256,256,256,0.4)] cursor-pointer' >
               <FcGoogle className='text-3xl'/>
               <p className='text-xl text-white'>Sign in with Google</p>
-            </motion.div> */}
+            </motion.div> 
 
             {/* or section */}
 
-{/*             <div className='flex items-center justify-center gap-12bg'>
+             <div className='flex items-center justify-center gap-12bg'>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
               <p className='text-sm text-[rgba(256,256,256,0.2)]'>OR</p>
               <div className='h-[1px] bg-[rgba(256,256,256,0.2)] rounded-md w-24'></div>
-            </div> */}
+            </div> 
 
             {/* Github signin */}
 
-{/*             <motion.div onClick={signInWithGithub}
+            <motion.div onClick={signInWithGithub}
             whileTap={{scale:0.9}}  
             className='flex items-center justify-center gap-3 bg-[rgba(256,256,256,0.2)] backdrop-blur-md w-full py-3 rounded-xl hover:[rgba(256,256,256,0.4)] cursor-pointer' >
               <FaGithub className='text-3xl'/>
               <p className='text-xl text-white'>Sign in with Github</p>
-            </motion.div>
- */}
+            </motion.div> 
         </div>
     </div>
    </div>
